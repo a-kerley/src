@@ -12,7 +12,7 @@
   "addOns": {
     "common": {
       "name": "Invoice PDF Generator",
-      "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/picture_as_pdf_black_24dp.png",
+      "logoUrl": "https://raw.githubusercontent.com/a-kerley/src/main/pdf.png",
       "layoutProperties": {
         "primaryColor": "#1a73e8"
       }
