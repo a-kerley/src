@@ -7,7 +7,9 @@
     "https://www.googleapis.com/auth/script.locale",
     "https://www.googleapis.com/auth/script.external_request",
     "https://www.googleapis.com/auth/drive",
-    "https://www.googleapis.com/auth/spreadsheets"
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/gmail.compose",
+    "https://www.googleapis.com/auth/gmail.modify"
   ],
   "addOns": {
     "common": {
@@ -15,6 +17,9 @@
       "logoUrl": "https://raw.githubusercontent.com/a-kerley/src/main/pdf.png",
       "layoutProperties": {
         "primaryColor": "#1a73e8"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
       }
     },
     "drive": {
@@ -24,7 +29,7 @@
     },
     "sheets": {
       "homepageTrigger": {
-        "runFunction": "onSheetsHomepage"
+        "runFunction": "onHomepage"
       }
     }
   }
